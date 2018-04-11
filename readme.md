@@ -1,4 +1,4 @@
-## python study
+## python study 第一次迭代
 
 ### core
 > core
@@ -42,3 +42,7 @@ python3.5 -V  # 3.5
 python -m pip instal package
 python3.5 -m pip install package
 ```
+
+
+## python study 第二次迭代 《流利的python》 系统学习
+
