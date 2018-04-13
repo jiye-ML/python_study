@@ -1,0 +1,1 @@
+l = list(range(10))l[2 : ] = [100]print(l)import numpy as nparr = np.array(range(10))arr[5 : 7] = [100]print(arr)import dist = (1, 2, [3, 4])dis.dis('t[2] += [5, 6]')import arrayarr = array.array('B', [12])print(arr)while arr[0]:    arr[0] += 1    print(arr.typecode)    pass
