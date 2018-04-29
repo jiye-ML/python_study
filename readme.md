@@ -46,3 +46,6 @@ python3.5 -m pip install package
 
 ## python study 第二次迭代 《流利的python》 系统学习
 
+* 最后17/18 设计并发，没有看
+* 元编程设计数据库没有看。
+
