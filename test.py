@@ -1,1 +1,0 @@
-def vowel(c):    return c.lower() in 'aeiou'print(list(filter(vowel, "Aardvark")))
