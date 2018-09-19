@@ -1,4 +1,4 @@
-from core.CorePrint import CorePrint
+from CorePrint import CorePrint
 
 
 class MyClass(object):

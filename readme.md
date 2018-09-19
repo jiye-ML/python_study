@@ -1,7 +1,5 @@
 ## python study 第一次迭代
 
-### core
-> core
 
 ### demo
 > demo中是一些例子
@@ -20,6 +18,7 @@
 
 
 ### data_structure 
+
 > python的一些基本数据结构
 
 
@@ -48,4 +47,9 @@ python3.5 -m pip install package
 
 * 最后17/18 设计并发，没有看
 * 元编程设计数据库没有看。
+
+
+
+## python study 第三次迭代 《python标准程序库》
+
 

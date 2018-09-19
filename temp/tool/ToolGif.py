@@ -80,9 +80,9 @@ class ToolGif:
 
 if __name__ == "__main__":
 
-    img_dir = "terra_noerdlin_7/"
+    img_dir = "gif/"
     gif_dir =  "{}.gif".format(os.path.split(img_dir)[-2])
 
-    ToolGif(img_dir, gif_dir, sort=SortGif.compare_mtime, duration=0.2)
+    ToolGif(img_dir, gif_dir, sort=SortGif.compare_mtime, duration=1)
 
     pass

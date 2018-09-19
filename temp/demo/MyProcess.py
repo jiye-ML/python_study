@@ -3,9 +3,10 @@
 '''
 
 import multiprocessing
-from multiprocessing import queues
-from core.CorePrint import CorePrint
 import time
+from multiprocessing import queues
+
+from CorePrint import CorePrint
 
 
 class Common:

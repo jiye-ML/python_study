@@ -1,5 +1,6 @@
 from enum import Enum
-from core.CorePrint import CorePrint
+
+from CorePrint import CorePrint
 
 
 class Color(Enum):
