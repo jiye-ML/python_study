@@ -1,4 +1,11 @@
+'''
+递归打印所有的目录下的文件和状态
+
+
+'''
 import os, stat
+
+
 class DirectoryStatWalker:
     # a forward iterator that traverses a directory tree, and
     # returns the filename and additional file information
@@ -6,6 +13,8 @@ class DirectoryStatWalker:
         self.stack = [directory]
         self.files = []
         self.index = 0
+        pass
+
     def __getitem__(self, index):
         while 1:
             try:
@@ -24,5 +33,8 @@ class DirectoryStatWalker:
                 if stat.S_ISDIR(mode) and not stat.S_ISLNK(mode):
                     self.stack.append(fullname)
                 return fullname, st
+
+    pass
+
 for file, st in DirectoryStatWalker("."):
-    print file, st[stat.ST_SIZE]
+    print(file, st[stat.ST_SIZE])
