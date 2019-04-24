@@ -1,1 +1,0 @@
-'''matplotlib（二）——style sheets定制图、工具栏    https://blog.csdn.net/qq_31192383/article/details/54170542'''import matplotlib.pyplot as plt#默认样式x=[1,2,3,4,5]y=[1,4,9,16,25]plt.plot(x,y)#使用ggplot样式plt.figure(2)plt.style.use('ggplot')plt.plot(x,y)plt.show()'''自定义样式'''
