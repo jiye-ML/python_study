@@ -1,25 +1,6 @@
 ## python study 第一次迭代
 
-
-### demo
-> demo中是一些例子
-
-### temp
-> temp中是正在学习和整理的常用功能和库
-
-### tool
-> tool中是整理好的工具
-
-### module
-> module中是和模块相关的
-
-### video
-> 摄像头视频相关操作
-
-
-### data_structure 
-
-> python的一些基本数据结构
+![](index.png)
 
 
 ## 遇到的问题
