@@ -10,7 +10,9 @@ def run(a, b, c):
 
 if __name__ == '__main__':
 
-    file_list = os.listdir('./')
+    file_list = []
+    for i in range(1000):
+        file_list.extend(os.listdir('./'))
 
     _result_list = []
 
