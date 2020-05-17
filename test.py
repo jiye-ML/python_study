@@ -1,8 +1,6 @@
-import os
-
-file_list_1 = os.listdir(r'E:\WDJ_Data\DATA\DATA\20200117\CT')
-file_list_2 = os.listdir(r'E:\WDJ_Data\DATA\20200117\CT')
-
-for file_name in file_list_1:
-    if file_name in file_list_2:
-        print(file_name)
+#import the pandas library and aliasing as pd
+import pandas as pd
+import numpy as np
+data = np.array(['a','b','c','d'])
+s = pd.Series(data)
+print(s)
