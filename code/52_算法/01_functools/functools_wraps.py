@@ -4,9 +4,10 @@
 # Copyright (c) 2008 Doug Hellmann All rights reserved.
 #
 """
+更新所包装callable的属性对修饰符尤其有用，因为转换后的函数最后会得到原裸函数的属性。
 """
 
-#end_pymotw_header
+# end_pymotw_header
 import functools
 
 
@@ -29,6 +30,7 @@ def simple_decorator(f):
         print('  decorated:', (a, b))
         print('  ', end=' ')
         return f(a, b=b)
+
     return decorated
 
 
@@ -44,7 +46,7 @@ myfunc('unwrapped, default b')
 myfunc('unwrapped, passing b', 3)
 print()
 
-# Wrap explicitly
+# Wrap explicitly： 显示装饰
 wrapped_myfunc = simple_decorator(myfunc)
 show_details('wrapped_myfunc', wrapped_myfunc)
 wrapped_myfunc()
@@ -52,7 +54,7 @@ wrapped_myfunc('args to wrapped', 4)
 print()
 
 
-# Wrap with decorator syntax
+# Wrap with decorator syntax：隐式装饰
 @simple_decorator
 def decorated_myfunc(a, b):
     myfunc(a, b)
