@@ -25,10 +25,12 @@ class Context:
         return self.handle_error
 
 
+# __exit__返回true表示异常不再传播
 with Context(True):
     raise RuntimeError('error message handled')
 
 print()
 
+# __exit__返回False表示异常会继续传播
 with Context(False):
     raise RuntimeError('error message propagated')

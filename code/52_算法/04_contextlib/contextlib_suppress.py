@@ -20,6 +20,7 @@ def non_idempotent_operation():
     )
 
 
+# 抵制异常的抛出
 with contextlib.suppress(NonFatalError):
     print('trying non-idempotent operation')
     non_idempotent_operation()
